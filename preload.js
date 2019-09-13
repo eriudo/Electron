@@ -60,3 +60,5 @@ window.questions = `
 0 - pesquisadas - tesquisadas - pesquisaba
 `.split('\n')
  .map(line => line.split(' - '));
+
+const jsonString = JSON.stringify(questions);
